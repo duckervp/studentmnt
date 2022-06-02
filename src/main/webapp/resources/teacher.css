@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #E7DFD5;
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+thead {
+    background-color: lightcyan;
+}
+
+th {
+    font-weight: 700;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 2% 7%;
+}
+
+.flex {
+    display: flex;
+    align-items: end;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.majors-select {
+    width: 100px;
+}
+
+.quantity-select {
+    width: 300px;
+}
+
+#quantity {
+    width: 50px;
+}
+
+fieldset {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.ml-2 {
+    margin-left: 20px;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
